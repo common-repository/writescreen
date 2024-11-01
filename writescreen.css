@@ -1,0 +1,31 @@
+/* 
+ *Stylesheet for Writeboard plugin.
+ * Version: 1.0
+ * Author: Jerome Covington
+ * License: GPL2
+ */
+
+#edit-slug-box {
+    height: auto;
+}
+
+#writescreen-button {
+    padding-top: 10px;
+}
+
+#post-body-content.opened {
+    position: absolute;
+    top: 46px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: #f9f9f9;
+}
+
+body #TB_overlay,
+body #TB_window {
+    z-index: 1001;
+}
+
+
